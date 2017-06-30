@@ -6,10 +6,10 @@ using System.Windows.Forms;
 
 namespace BoltQA
 {
-    static class Program
+    class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        /// This is Jakubs fault.
         /// </summary>
         [STAThread]
         static void Main()
