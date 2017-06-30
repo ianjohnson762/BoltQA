@@ -28,5 +28,11 @@ namespace BoltQA
             reg.ShowDialog();
 
         }
+
+        private void btn_Find_Click(object sender, EventArgs e)
+        {
+            Edit edit = new Edit();
+            edit.ShowDialog();
+        }
     }
 }
