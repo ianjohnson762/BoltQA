@@ -28,19 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_Find = new System.Windows.Forms.Button();
+            this.btn_Edit = new System.Windows.Forms.Button();
             this.btn_Register = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btn_Find
+            // btn_Edit
             // 
-            this.btn_Find.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Find.Location = new System.Drawing.Point(26, 70);
-            this.btn_Find.Name = "btn_Find";
-            this.btn_Find.Size = new System.Drawing.Size(80, 36);
-            this.btn_Find.TabIndex = 0;
-            this.btn_Find.Text = "Find";
-            this.btn_Find.UseVisualStyleBackColor = true;
+            this.btn_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Edit.Location = new System.Drawing.Point(26, 70);
+            this.btn_Edit.Name = "btn_Edit";
+            this.btn_Edit.Size = new System.Drawing.Size(80, 36);
+            this.btn_Edit.TabIndex = 0;
+            this.btn_Edit.Text = "Edit";
+            this.btn_Edit.UseVisualStyleBackColor = true;
+            this.btn_Edit.Click += new System.EventHandler(this.btn_Find_Click);
             // 
             // btn_Register
             // 
@@ -59,7 +60,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(540, 317);
             this.Controls.Add(this.btn_Register);
-            this.Controls.Add(this.btn_Find);
+            this.Controls.Add(this.btn_Edit);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -69,7 +70,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btn_Find;
+        private System.Windows.Forms.Button btn_Edit;
         private System.Windows.Forms.Button btn_Register;
     }
 }
