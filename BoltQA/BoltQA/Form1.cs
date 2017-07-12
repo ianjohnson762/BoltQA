@@ -26,10 +26,9 @@ namespace BoltQA
         {
             Registration reg = new Registration();
             reg.ShowDialog();
-
         }
 
-        private void btn_Find_Click(object sender, EventArgs e)
+        private void btn_Edit_Click(object sender, EventArgs e)
         {
             Edit edit = new Edit();
             edit.ShowDialog();
